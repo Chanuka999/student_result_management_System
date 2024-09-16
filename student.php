@@ -263,7 +263,7 @@ body {
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
+                    <!--?php
                     if ($result->num_rows > 0) {
                         $i = 1;
                         while ($row = $result->fetch_assoc()) {
@@ -286,7 +286,7 @@ body {
                     } else {
                         echo "<tr><td colspan='10'>No students found</td></tr>";
                     }
-                    ?>
+                    ?-->
                 </tbody>
             </table>
 
