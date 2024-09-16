@@ -77,7 +77,7 @@
 
 ?>
 
-   <div class="container" style="background-image:url(images/nature2.jpg)">
+   <div class="container" style="background-image:url(img/img2.html)">
    <form action="sign.php" method="post">
    <h1>Sign up</h1>
     <div class="group-1">
