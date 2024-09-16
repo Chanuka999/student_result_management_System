@@ -36,6 +36,14 @@
     <link rel="stylesheet" href="style.css">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
 </head>
+<style>
+.container {
+  background-image:url(../img/img3.webp);
+ 
+ 
+}
+
+</style>
 <body>
 <?php 
     if($login){
@@ -59,9 +67,9 @@
 
 ?>
 
-   <div class="container" style="background-image:url(img/img3.html);">
+   <div class="container">
    <form action="login.php" method="post">
-   <h1>login our page</h1>
+   <h1>login Student Result Management System</h1>
     <div class="group-1">
     <label for="e-mail">  Name</label>
     <input type="text"  placeholder="enter your username" name="username">
