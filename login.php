@@ -8,7 +8,7 @@
 
     
     
-    $sql="Select * from `registration` where username='$username' and password='$password'";
+    $sql="Select * from `registrations` where username='$username' and password='$password'";
 
     $result=mysqli_query($con,$sql);
     if($result){
