@@ -41,7 +41,7 @@ $total_enrollments = $enrollment_result->fetch_assoc()['total_enrollments'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>student Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <style>
@@ -176,7 +176,7 @@ body {
                 <li><a href="student.php">Students</a></li>
                 <li><a href="courses.php">Courses</a></li>
                 <li><a href="#">Enrollments</a></li>
-                <li><a href="#">Marks</a></li>
+                <li><a href="studentsDetail.php">Marks</a></li>
                 <li><a href="#">Users</a></li>
             </ul>
             <div class="logout">
