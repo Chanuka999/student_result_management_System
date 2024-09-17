@@ -10,7 +10,7 @@
      $cpassword=$_POST['cpassword'];
     
     
-    $sql="Select * from `registration` where username='$username'";
+    $sql="Select * from `registrations` where username='$username'";
 
     $result=mysqli_query($con,$sql);
     if($result){
@@ -20,7 +20,7 @@
            $user=1;
         }else{
           if($password===$cpassword){
-            $sql="insert into `registration`(username,password) values('$username','$password')";
+            $sql="insert into `registrations`(username,password) values('$username','$password')";
 
             $result=mysqli_query($con,$sql);
             if($result){
@@ -42,7 +42,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup page</title>
+    <title>REGISTRATION</title>
     <link rel="stylesheet" href="style.css">
  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
 </head>
