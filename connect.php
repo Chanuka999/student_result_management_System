@@ -2,13 +2,13 @@
 $HOSTNAME='localhost';
 $USERNAME='root';
 $PASSWORD='';
-$DATABaSE='signupforms';
+$DATABASE='srms';
 
 
-$con=mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABaSE);
+$connect=mysqli_connect($HOSTNAME,$USERNAME,$PASSWORD,$DATABASE);
 
-if(!$con){
-    die(mysqli_error($con));
+if(!$connect){
+    die(mysqli_error($connect));
 
 }
   
