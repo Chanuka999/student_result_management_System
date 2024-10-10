@@ -1,1 +1,0 @@
-# student_result_management_System
