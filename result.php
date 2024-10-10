@@ -17,14 +17,20 @@ include('includes/config.php');
         <link rel="stylesheet" href="css/prism/prism.css" media="screen" >
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
+        <style>
+            body{
+                background-image: url('images/img6.jpg');
+                background-repeat:space;
+            }
+        </style>
     </head>
-    <body>
+    <body style="background-image: url('images/img6.jpg')">
         <div class="main-wrapper">
             <div class="content-wrapper">
                 <div class="content-container">
 
          
-                    <!-- /.left-sidebar -->
+                    
 
                     <div class="main-page">
                         <div class="container-fluid">
@@ -33,11 +39,10 @@ include('includes/config.php');
                                     <h2 class="title" align="center">Result Management System</h2>
                                 </div>
                             </div>
-                            <!-- /.row -->
                           
-                            <!-- /.row -->
+                           
                         </div>
-                        <!-- /.container-fluid -->
+                     
 
                         <section class="section" id="exampl">
                             <div class="container-fluid">
@@ -98,7 +103,7 @@ foreach($resultss as $row)
                                                 	
                                                 	<tbody>
 <?php                                              
-// Code for result
+
 
  $query ="select t.StudentName,t.RollId,t.ClassId,t.marks,SubjectId,tblsubjects.SubjectName from (select sts.StudentName,sts.RollId,sts.ClassId,tr.marks,SubjectId from tblstudents as sts join  tblresult as tr on tr.StudentId=sts.StudentId) as t join tblsubjects on tblsubjects.id=t.SubjectId where (t.RollId=:rollid and t.ClassId=:classid)";
 $query= $dbh -> prepare($query);
@@ -161,9 +166,9 @@ echo htmlentities("Invalid Roll Id");
 
                                             </div>
                                         </div>
-                                        <!-- /.panel -->
+                                        
                                     </div>
-                                    <!-- /.col-md-6 -->
+                                   
 
                                     <div class="form-group">
                                                            
@@ -173,36 +178,35 @@ echo htmlentities("Invalid Roll Id");
                                                         </div>
 
                                 </div>
-                                <!-- /.row -->
-  
+                                
                             </div>
-                            <!-- /.container-fluid -->
+                           
                         </section>
-                        <!-- /.section -->
+                      
 
                     </div>
-                    <!-- /.main-page -->
+                    
 
                   
                 </div>
-                <!-- /.content-container -->
+               
             </div>
-            <!-- /.content-wrapper -->
+           
 
         </div>
-        <!-- /.main-wrapper -->
+      
 
-        <!-- ========== COMMON JS FILES ========== -->
+        
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
         <script src="js/pace/pace.min.js"></script>
         <script src="js/lobipanel/lobipanel.min.js"></script>
         <script src="js/iscroll/iscroll.js"></script>
 
-        <!-- ========== PAGE JS FILES ========== -->
+       
         <script src="js/prism/prism.js"></script>
 
-        <!-- ========== THEME JS ========== -->
+        
         <script src="js/main.js"></script>
         <script>
             $(function($) {
@@ -222,7 +226,7 @@ WinPrint.print();
 
         </script>
 
-        <!-- ========== ADD custom.js FILE BELOW WITH YOUR CHANGES ========== -->
+       
 
     </body>
 </html>
