@@ -8,7 +8,7 @@ if(strlen($_SESSION['alogin'])=="")
     header("Location: index.php"); 
     }
     else{
- // for activate Subject   	
+
 if(isset($_GET['acid']))
 {
 $acid=intval($_GET['acid']);
@@ -21,7 +21,7 @@ $query->execute();
 $msg="Subject Activate successfully";
 }
 
- // for Deactivate Subject
+ 
 if(isset($_GET['did']))
 {
 $did=intval($_GET['did']);
@@ -71,9 +71,9 @@ $msg="Subject Deactivate successfully";
     <body class="top-navbar-fixed">
         <div class="main-wrapper">
 
-            <!-- ========== TOP NAVBAR ========== -->
+           
    <?php include('includes/topbar.php');?> 
-            <!-- ========== WRAPPER FOR BOTH SIDEBARS & MAIN CONTENT ========== -->
+           
             <div class="content-wrapper">
                 <div class="content-container">
 <?php include('includes/leftbar.php');?>  
@@ -86,9 +86,9 @@ $msg="Subject Deactivate successfully";
                                 
                                 </div>
                                 
-                                <!-- /.col-md-6 text-right -->
+                               
                             </div>
-                            <!-- /.row -->
+                            
                             <div class="row breadcrumb-div">
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
@@ -99,9 +99,9 @@ $msg="Subject Deactivate successfully";
                                 </div>
                              
                             </div>
-                            <!-- /.row -->
+                           
                         </div>
-                        <!-- /.container-fluid -->
+                        
 
                         <section class="section">
                             <div class="container-fluid">
@@ -188,38 +188,36 @@ else
                                                 </table>
 
                                          
-                                                <!-- /.col-md-12 -->
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.col-md-6 -->
+                                   
 
                                                                
                                                 </div>
-                                                <!-- /.col-md-12 -->
+                                               
                                             </div>
                                         </div>
-                                        <!-- /.panel -->
+                                      
                                     </div>
-                                    <!-- /.col-md-6 -->
+                                    
 
                                 </div>
-                                <!-- /.row -->
-
+                                
                             </div>
-                            <!-- /.container-fluid -->
+                           
                         </section>
-                        <!-- /.section -->
+                       
 
                     </div>
-                    <!-- /.main-page -->
+                    
 
                     
 
                 </div>
-                <!-- /.content-container -->
+               
             </div>
-            <!-- /.content-wrapper -->
+          
 
         </div>
         <script src="js/jquery/jquery-2.2.4.min.js"></script>

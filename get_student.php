@@ -20,7 +20,7 @@ if(!empty($_POST["classid"]))
 }
 
 }
-// Code for Subjects
+
 if(!empty($_POST["classid1"])) 
 {
  $cid1=intval($_POST['classid1']);
@@ -53,7 +53,7 @@ if(!empty($_POST["studclass"]))
 $id=$dta[0];
 $id1=$dta[1];
  $query = $dbh->prepare("SELECT StudentId,ClassId FROM tblresult WHERE StudentId=:id1 and ClassId=:id ");
-//$query= $dbh -> prepare($sql);
+
 $query-> bindParam(':id1', $id1, PDO::PARAM_STR);
 $query-> bindParam(':id', $id, PDO::PARAM_STR);
 $query-> execute();

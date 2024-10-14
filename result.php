@@ -58,7 +58,7 @@ include('includes/config.php');
                                                     <h3 align="center">Student Result Details</h3>
                                                     <hr />
 <?php
-// code Student Data
+
 $rollid=$_POST['rollid'];
 $classid=$_POST['class'];
 $_SESSION['rollid']=$rollid;

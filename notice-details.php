@@ -10,13 +10,13 @@ include('includes/config.php');
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Student Result Management System</title>
-        <!-- Favicon-->
+        
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+       
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Responsive navbar-->
+        
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index.php">SRMS-(Student Result Management System)</a>
@@ -30,9 +30,7 @@ include('includes/config.php');
                 </div>
             </div>
         </nav>
-        <!-- Header - set the background image for the header in the line below-->
- 
-        <!-- Content section-->
+        
         <section class="py-5">
             <div class="container my-5">
                 <div class="row justify-content-center">
@@ -66,13 +64,13 @@ foreach($results as $result)
         </section>
 
 
-        <!-- Footer-->
+        
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Student Result Management System <?php echo date('Y');?></p></div>
         </footer>
-        <!-- Bootstrap core JS-->
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        
         <script src="js/scripts.js"></script>
     </body>
 </html>

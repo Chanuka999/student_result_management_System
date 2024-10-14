@@ -43,7 +43,7 @@ $error="Your current password is wrong";
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
         <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen" >
-        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
+        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > 
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
         <script type="text/javascript">
@@ -83,7 +83,7 @@ return true;
             <div class="content-wrapper">
                 <div class="content-container">
 <?php include('includes/leftbar.php');?>                   
- <!-- /.left-sidebar -->
+
 
                     <div class="main-page">
                         <div class="container-fluid">
@@ -93,7 +93,7 @@ return true;
                                 </div>
                                 
                             </div>
-                            <!-- /.row -->
+                            
                             <div class="row breadcrumb-div">
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
@@ -104,10 +104,9 @@ return true;
                                 </div>
                                
                             </div>
-                            <!-- /.row -->
+                           
                         </div>
-                        <!-- /.container-fluid -->
-
+                        
                         <section class="section">
                             <div class="container-fluid">
 
@@ -169,30 +168,29 @@ else if($error){?>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.col-md-8 col-md-offset-2 -->
+                                  
                                 </div>
-                                <!-- /.row -->
+                              
 
                                
                                
 
                             </div>
-                            <!-- /.container-fluid -->
+                          
                         </section>
-                        <!-- /.section -->
+                       
 
                     </div>
-                    <!-- /.main-page -->
-
+                    
                 </div>
-                <!-- /.content-container -->
+                
             </div>
-            <!-- /.content-wrapper -->
+         
 
         </div>
-        <!-- /.main-wrapper -->
+       
 
-        <!-- ========== COMMON JS FILES ========== -->
+        
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/jquery-ui/jquery-ui.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
@@ -200,15 +198,15 @@ else if($error){?>
         <script src="js/lobipanel/lobipanel.min.js"></script>
         <script src="js/iscroll/iscroll.js"></script>
 
-        <!-- ========== PAGE JS FILES ========== -->
+        
         <script src="js/prism/prism.js"></script>
 
-        <!-- ========== THEME JS ========== -->
+      
         <script src="js/main.js"></script>
 
 
 
-        <!-- ========== ADD custom.js FILE BELOW WITH YOUR CHANGES ========== -->
+      
     </body>
 </html>
 <?php  } ?>

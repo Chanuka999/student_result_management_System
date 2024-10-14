@@ -39,12 +39,12 @@ if(strlen($_SESSION['alogin'])=="")
                                     <h2 class="title">Dashboard</h2>
                                   
                                 </div>
-                                <!-- /.col-sm-6 -->
+                               
                             </div>
-                            <!-- /.row -->
+                          
                       
                         </div>
-                        <!-- /.container-fluid -->
+                        
 
                         <section class="section">
                             <div class="container-fluid">
@@ -63,9 +63,9 @@ $totalstudents=$query1->rowCount();
                                             <span class="name">Regd Users</span>
                                             <span class="bg-icon"><i class="fa fa-users"></i></span>
                                         </a>
-                                        <!-- /.dashboard-stat -->
+                                       
                                     </div>
-                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                                    
 
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
                                         <a class="dashboard-stat bg-danger" href="manage-subjects.php">
@@ -80,9 +80,9 @@ $totalsubjects=$query->rowCount();
                                             <span class="name">Subjects Listed</span>
                                             <span class="bg-icon"><i class="fa fa-ticket"></i></span>
                                         </a>
-                                        <!-- /.dashboard-stat -->
+                                       
                                     </div>
-                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                                   
 
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:1%;">
                                         <a class="dashboard-stat bg-warning" href="manage-classes.php">
@@ -97,9 +97,9 @@ $totalclasses=$query2->rowCount();
                                             <span class="name">Total classes listed</span>
                                             <span class="bg-icon"><i class="fa fa-bank"></i></span>
                                         </a>
-                                        <!-- /.dashboard-stat -->
+                                     
                                     </div>
-                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                                   
 
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"  style="margin-top:1%">
                                         <a class="dashboard-stat bg-success" href="manage-results.php">
@@ -115,30 +115,30 @@ $totalresults=$query3->rowCount();
                                             <span class="name">Results Declared</span>
                                             <span class="bg-icon"><i class="fa fa-file-text"></i></span>
                                         </a>
-                                        <!-- /.dashboard-stat -->
+                                       
                                     </div>
-                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+                                   
 
                                 </div>
-                                <!-- /.row -->
+                                
                             </div>
-                            <!-- /.container-fluid -->
+                            
                         </section>
-                        <!-- /.section -->
+                     
 
                     </div>
-                    <!-- /.main-page -->
+                   
 
                     
                 </div>
-                <!-- /.content-container -->
+                
             </div>
-            <!-- /.content-wrapper -->
+            
 
         </div>
-        <!-- /.main-wrapper -->
+      
 
-        <!-- ========== COMMON JS FILES ========== -->
+       
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/jquery-ui/jquery-ui.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
@@ -146,7 +146,7 @@ $totalresults=$query3->rowCount();
         <script src="js/lobipanel/lobipanel.min.js"></script>
         <script src="js/iscroll/iscroll.js"></script>
 
-        <!-- ========== PAGE JS FILES ========== -->
+       
         <script src="js/prism/prism.js"></script>
         <script src="js/waypoint/waypoints.min.js"></script>
         <script src="js/counterUp/jquery.counterup.min.js"></script>
@@ -158,7 +158,7 @@ $totalresults=$query3->rowCount();
         <script src="js/toastr/toastr.min.js"></script>
         <script src="js/icheck/icheck.min.js"></script>
 
-        <!-- ========== THEME JS ========== -->
+      
         <script src="js/main.js"></script>
         <script src="js/production-chart.js"></script>
         <script src="js/traffic-chart.js"></script>
@@ -166,13 +166,13 @@ $totalresults=$query3->rowCount();
         <script>
             $(function(){
 
-                // Counter for dashboard stats
+                
                 $('.counter').counterUp({
                     delay: 10,
                     time: 1000
                 });
 
-                // Welcome notification
+                
                 toastr.options = {
                   "closeButton": true,
                   "debug": false,

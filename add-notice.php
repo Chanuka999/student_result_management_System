@@ -61,7 +61,7 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
     <body class="top-navbar-fixed">
         <div class="main-wrapper">
 
-            <!-- ========== TOP NAVBAR ========== -->
+            
             <?php include('includes/topbar.php');?>   
        
             <div class="content-wrapper">
@@ -140,30 +140,30 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- /.col-md-8 col-md-offset-2 -->
+                                  
                                 </div>
-                                <!-- /.row -->
+                             
 
                                
                                
 
                             </div>
-                            <!-- /.container-fluid -->
+                          
                         </section>
-                        <!-- /.section -->
+                     
 
                     </div>
-                    <!-- /.main-page -->
+                  
 
                 </div>
-                <!-- /.content-container -->
+              
             </div>
-            <!-- /.content-wrapper -->
+         
 
         </div>
-        <!-- /.main-wrapper -->
+     
 
-        <!-- ========== COMMON JS FILES ========== -->
+        
         <script src="js/jquery/jquery-2.2.4.min.js"></script>
         <script src="js/jquery-ui/jquery-ui.min.js"></script>
         <script src="js/bootstrap/bootstrap.min.js"></script>
@@ -171,15 +171,15 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
         <script src="js/lobipanel/lobipanel.min.js"></script>
         <script src="js/iscroll/iscroll.js"></script>
 
-        <!-- ========== PAGE JS FILES ========== -->
+      
         <script src="js/prism/prism.js"></script>
 
-        <!-- ========== THEME JS ========== -->
+        
         <script src="js/main.js"></script>
 
 
 
-        <!-- ========== ADD custom.js FILE BELOW WITH YOUR CHANGES ========== -->
+      
     </body>
 </html>
 <?php  } ?>
