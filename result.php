@@ -19,12 +19,14 @@ include('includes/config.php');
         <script src="js/modernizr/modernizr.min.js"></script>
         <style>
             body{
-                background-image: url('images/img6.jpg');
-                background-repeat:space;
+                background-image: url('images/cimg2.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
             }
         </style>
     </head>
-    <body style="background-image: url('images/img6.jpg')">
+    <body style="background-image: url('images/cimg2.jpg')">
         <div class="main-wrapper">
             <div class="content-wrapper">
                 <div class="content-container">
