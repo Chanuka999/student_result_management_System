@@ -31,7 +31,7 @@ include('includes/config.php');
             </div>
         </nav>
        
-        <header class="py-5 bg-image-full" style="background-image: url('images/img4.jpg')">
+        <header class="py-5 bg-image-full" style="background-image: url('images/cimg1.jpg')">
     
         </header>
        
