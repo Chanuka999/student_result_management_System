@@ -29,7 +29,7 @@ echo "<script>window.location.href ='manage-subjects.php'</script>";
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
         <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen" >
-        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
+        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > 
         <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
@@ -145,10 +145,10 @@ foreach($results as $result)
 {   ?>
 <tr>
  <td><?php echo htmlentities($cnt);?></td>
-                                                            <td><?php echo htmlentities($result->SubjectName);?></td>
-                                                            <td><?php echo htmlentities($result->SubjectCode);?></td>
-                                                            <td><?php echo htmlentities($result->Creationdate);?></td>
-                                                            <td><?php echo htmlentities($result->UpdationDate);?></td>
+ <td><?php echo htmlentities($result->SubjectName);?></td>
+   <td><?php echo htmlentities($result->SubjectCode);?></td>
+      <td><?php echo htmlentities($result->Creationdate);?></td>
+      <td><?php echo htmlentities($result->UpdationDate);?></td>
 <td>
 <a href="edit-subject.php?subjectid=<?php echo htmlentities($result->id);?>" class="btn btn-info btn-xs">Eidt  </a> 
   <a href="manage-subjects.php?id=<?php echo $result->id;?>&del=delete" onClick="return confirm('Are you sure you want to delete?')" class="btn btn-danger btn-xs">Delete</a>

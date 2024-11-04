@@ -48,9 +48,9 @@ if($query->rowCount() > 0)
 foreach($results as $result)
 {   ?>  
 
-                        <h3><?php echo htmlentities($result->noticeTitle);?></h3>
-                        <p><strong>Notice Posting Date:</strong>  <?php echo htmlentities($result->postingDate);?></p>
-                                                <hr color="#000" />
+    <h3><?php echo htmlentities($result->noticeTitle);?></h3>
+    <p><strong>Notice Posting Date:</strong>  <?php echo htmlentities($result->postingDate);?></p>
+       <hr color="#000" />
                     
 <p><?php echo htmlentities($result->noticeDetails);?></p>
 <?php }} ?>

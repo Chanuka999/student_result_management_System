@@ -21,7 +21,7 @@ if(strlen($_SESSION['alogin'])=="")
         <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
         <link rel="stylesheet" href="css/animate-css/animate.min.css" media="screen" >
         <link rel="stylesheet" href="css/lobipanel/lobipanel.min.css" media="screen" >
-        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
+        <link rel="stylesheet" href="css/prism/prism.css" media="screen" > 
         <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
@@ -139,11 +139,11 @@ foreach($results as $result)
 {   ?>
 <tr>
  <td><?php echo htmlentities($cnt);?></td>
-                                                            <td><?php echo htmlentities($result->StudentName);?></td>
-                                                            <td><?php echo htmlentities($result->RollId);?></td>
-                                                            <td><?php echo htmlentities($result->ClassName);?>(<?php echo htmlentities($result->Section);?>)</td>
-                                                            <td><?php echo htmlentities($result->RegDate);?></td>
-                                                             <td><?php if($result->Status==1){
+<td><?php echo htmlentities($result->StudentName);?></td>
+ <td><?php echo htmlentities($result->RollId);?></td>
+ <td><?php echo htmlentities($result->ClassName);?>(<?php echo htmlentities($result->Section);?>)</td>
+ <td><?php echo htmlentities($result->RegDate);?></td>
+   <td><?php if($result->Status==1){
 echo htmlentities('Active');
 }
 else{

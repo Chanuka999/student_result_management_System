@@ -138,17 +138,17 @@ foreach($results as $result)
 {   ?>
 <tr>
  <td><?php echo htmlentities($cnt);?></td>
-                                                            <td><?php echo htmlentities($result->StudentName);?></td>
-                                                            <td><?php echo htmlentities($result->RollId);?></td>
-                                                            <td><?php echo htmlentities($result->ClassName);?>(<?php echo htmlentities($result->Section);?>)</td>
-                                                            <td><?php echo htmlentities($result->RegDate);?></td>
-                                                             <td><?php if($result->Status==1){
+     <td><?php echo htmlentities($result->StudentName);?></td>
+    <td><?php echo htmlentities($result->RollId);?></td>
+      <td><?php echo htmlentities($result->ClassName);?>(<?php echo htmlentities($result->Section);?>)</td>
+       <td><?php echo htmlentities($result->RegDate);?></td>
+    <td><?php if($result->Status==1){
 echo htmlentities('Active');
 }
 else{
    echo htmlentities('Blocked'); 
 }
-                                                                ?></td>
+ ?></td>
 <td>
 <a href="edit-student.php?stid=<?php echo htmlentities($result->StudentId);?>" class="btn btn-primary btn-xs" target="_blank">Edit </a> 
 
